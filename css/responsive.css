@@ -1,0 +1,1646 @@
+/* Responsive PC extra grande */
+
+@media screen and (max-width: 1600px) {
+  /* Redes Sociales */
+
+  .redes_sociales .container_redes {
+    margin-left: 90%;
+  }
+
+  /* Nav */
+
+  .container_nav .container_img_logo {
+    width: 40%;
+  }
+
+  .container_nav .container_img_logo picture img {
+    width: 45%;
+    height: 140px;
+    margin-top: 0;
+    margin-left: 200px;
+  }
+
+  .menu {
+    margin-top: -130px;
+    width: 60%;
+    margin-left: 40%;
+  }
+
+  /* Flecha Subir INDEX.PHP */
+
+  .flecha__subir {
+    position: fixed;
+  }
+
+  /* Descripcion INDEX.PHP */
+
+  .container__body .descripcion .container__texto--descripcion {
+    height: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .container__body .descripcion .container__cuadro--descripcion {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  /* Visita Guiada INDEX.PHP */
+
+  .container__body .container__visita_guiada .visita_guiada .visita {
+    margin-left: 40px;
+  }
+
+  /* Contador de visitas INDEX.PHP */
+
+  .container__body .contador_visitas {
+    width: 30%;
+    margin-left: 34%;
+  }
+
+  .container__body .contador_visitas .container__contador {
+    margin-left: 115px;
+  }
+
+  .container__body
+    .contador_visitas
+    .container__contador
+    .container__linea
+    .linea {
+    margin-left: 30px;
+  }
+
+  /* BANDERA.PHP */
+
+  .container__body .banderas .caja_bandera .titulo h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container__body .banderas .caja_bandera .bandera_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* GALERIA.PHP */
+
+  .container__body .container__titulo_galeria h1 {
+    width: 80%;
+    margin: 50px 150px;
+  }
+
+  /* REVISTA_T.PHP */
+
+  .container__body .tricolor {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .container__body .tricolor embed {
+    width: 90%;
+  }
+
+  /* CREDITOS.PHP */
+
+  .container__body .container__creditos {
+    margin: 20px auto;
+  }
+
+  .container__body .container__creditos .container__texto--creditos {
+    margin: 20px auto;
+  }
+
+  .container__body .container__creditos .container__texto--creditos h4 {
+    margin: 20px auto;
+  }
+
+  .container__body .container__creditos .container__texto--creditos p {
+    text-align: center;
+    margin: 20px 100px;
+  }
+
+  /* Footer */
+
+  .pie .container__logos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+  }
+
+  .pie .container__logos .container__img_logos {
+    width: 25%;
+    height: 100px;
+    margin: 60px auto;
+  }
+
+  .pie .container__logos .container__img_logos img {
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+  }
+
+  .pie .container__contacto {
+    width: 50%;
+    height: 220px;
+    margin-top: -220px;
+  }
+
+  .pie .container__pie {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Responsive PC grande */
+
+@media screen and (max-width: 1440px) {
+  /* Redes Sociales */
+
+  .redes_sociales .container_redes {
+    margin-left: 89%;
+  }
+
+  /* Logo */
+
+  .container_nav .container_img_logo {
+    width: 40%;
+  }
+
+  .container_nav .container_img_logo picture img {
+    height: 140px;
+    margin-top: 0;
+    margin-left: 110px;
+  }
+
+  /* Nav */
+
+  .menu {
+    width: 60%;
+    margin-top: -100px;
+    margin-left: 40%;
+  }
+
+  /* Video Banner INDEX.PHP */
+
+  .video_banner video {
+    margin-left: 150px;
+  }
+
+  /* Visita Guiada INDEX.PHP */
+
+  .container__body .container__visita_guiada .visita_guiada .visita {
+    margin-left: 50px;
+  }
+
+  /* Contador Visitas INDEX.PHP */
+
+  .container__body .contador_visitas {
+    width: 25%;
+    margin-left: 38%;
+  }
+
+  .container__body .contador_visitas .container__contador {
+    margin-left: 85px;
+  }
+
+  .container__body .contador_visitas .container__contador .container__linea {
+    margin-left: 15px;
+  }
+
+  /* Boton Certificado */
+
+  .container__body .enviarc {
+    margin: 20px auto;
+  }
+
+  /* BANDERA.PHP */
+
+  .container__body .banderas .caja_bandera .titulo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  /* GALERIA.PHP */
+
+  .container__body .container__titulo_galeria {
+    margin-left: 390px;
+  }
+
+  /* CREDITOS.PHP */
+
+  .container__body .container__creditos {
+    height: 730px;
+    margin-left: 70px;
+  }
+
+  .container__body .container__creditos .container__texto--creditos h4 {
+    margin-left: 500px;
+  }
+
+  .container__body .container__creditos .container__texto--creditos p {
+    height: auto;
+    margin: 0 150px;
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  /* MUSEOS.PHP */
+
+  .container__body .museos .caja_museo .caja_texto3 {
+    margin-bottom: 20px;
+  }
+
+  /* CERTIFICADO.PHP */
+
+  .container__body .container__titulo_formulario {
+    text-align: center;
+    margin-left: 400px;
+  }
+
+  .container__body .container__formulario_certificado {
+    margin-left: 150px;
+  }
+
+  .container__body .container__formulario_certificado .form {
+    margin-left: 150px;
+  }
+}
+
+/* Responsive PC mediana */
+
+@media screen and (max-width: 1200px) {
+  /* Redes Sociales */
+
+  .redes_sociales .container_redes {
+    margin-left: 85%;
+  }
+
+  /* Nav */
+
+  .container_nav .container_img_logo {
+    width: 40%;
+  }
+
+  .container_nav .container_img_logo picture img {
+    margin-left: 120px;
+  }
+
+  .menu {
+    width: 60%;
+    margin-top: -120px;
+    margin-left: 480px;
+  }
+
+  /* Banner Video INDEX.PHP */
+
+  .video_banner video {
+    margin: 0 130px;
+  }
+
+  /* Descripcion INDEX.PHP */
+
+  .container__body .descripcion .container__cuadro--descripcion {
+    margin-left: 80px;
+  }
+
+  /* Visita Guiada INDEX.PHP */
+
+  .container__body .container__visita_guiada .visita_guiada .visita {
+    margin-left: 50px;
+  }
+
+  /* Contador de Visitas INDEX.PHP */
+
+  .container__body .contador_visitas .container__contador {
+    margin-left: 73px;
+  }
+
+  .container__body .contador_visitas .container__contador .container__linea {
+    margin-left: 7px;
+  }
+
+  /* Boton certificado INDEX.PHP */
+
+  .container__body .enviarc {
+    margin: 20px auto;
+  }
+
+  /* GALERIA.PHP */
+
+  .container__body .container__titulo_galeria {
+    margin-left: 270px;
+  }
+
+  /* CREDITOS.PHP */
+
+  .container__body .container__creditos .container__texto--creditos h4 {
+    width: 15%;
+    margin-left: 45%;
+  }
+
+  .container__body .container__creditos .container__texto--creditos p {
+    margin-left: 12%;
+  }
+
+  /* CERTIFICADO.PHP */
+
+  .container__body .container__titulo_formulario {
+    margin-left: 30%;
+  }
+
+  .container__body .container__formulario_certificado {
+    margin-left: 150px;
+  }
+}
+
+/* Responsive PC pequeña */
+
+@media screen and (max-width: 1024px) {
+  /* Nav */
+
+  .container_nav .container_img_logo {
+    width: 30%;
+  }
+
+  .container_nav .container_img_logo picture img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .menu {
+    width: 70%;
+    margin-left: 295px;
+  }
+
+  /* Banner Video INDEX.PHP */
+
+  .container__body .video_banner video {
+    margin-left: 100px;
+  }
+
+  /* Contador de visitas INDEX.PHP */
+
+  .container__body .contador_visitas .container__contador {
+    margin-left: 60px;
+  }
+
+  .container__body .contador_visitas .container__contador .container__linea {
+    margin-left: 0;
+  }
+
+  /* Boton Certificado INDEX.PHP */
+
+  .container__body .enviarc {
+    margin: 20px 382px;
+  }
+
+  /* ESCUDOS.PHP
+
+  .container__body .container__escudos .container__miranda--escudos {
+    margin-left: 50px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    h4 {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda {
+    margin-left: 90px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .img__miranda {
+    margin-left: 18px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    h5 {
+    margin-left: 43px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .button_mas {
+    margin-left: 80px;
+  }
+
+  .container__body .container__escudos .container__sellos--escudos {
+    margin-left: -45px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    .img__sellos {
+    margin-left: 30px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    h5 {
+    margin-left: 35px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    .button_mas {
+    margin-left: 72px;
+  }
+
+  .container__body .container__republica--escudos {
+    margin-left: 0;
+  }
+
+  .container__body .container__republica--escudos .republica h4 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .img__republica {
+    margin-left: 40px;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    h5 {
+    margin: 20px auto;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .button_mas {
+    margin-left: 80px;
+  }
+
+  .container__body .container__gran_colombia--escudos {
+    margin-left: -45px;
+  }
+
+  .container__body .container__gran_colombia--escudos .gran_colombia h4 {
+    margin-left: 150px;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    .img__gran_colombia {
+    margin-left: 30px;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    h5 {
+    margin-left: 35px;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    .button_mas {
+    margin-left: 70px;
+  }
+
+  .container__body .container__escudos_armas--escudos {
+    margin-left: -45px;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    .img__escudos_armas {
+    margin-left: 30px;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    h5 {
+    margin-left: 35px;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    .button_mas {
+    margin-left: 70px;
+  }*/
+
+  /* VISION_MISION.PHP */
+
+  .container__body .container__mision {
+    margin: 20px auto;
+  }
+
+  .container__body .container__mision .container__texto--mision h4 {
+    width: 15%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .container__body .container__mision .container__texto--mision p {
+    margin: 0 auto;
+  }
+
+  .container__body .container__vision {
+    margin: 20px auto;
+  }
+
+  .container__body .container__vision .container__texto--vision h4 {
+    width: 15%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .container__body .container__vision .container__texto--vision p {
+    margin: 0 auto;
+  }
+
+  /* GALERIA.PHP */
+
+  .container__body .container__titulo_galeria {
+    width: 45%;
+    margin-left: 260px;
+  }
+
+  .container__body .container__titulo_galeria h1 {
+    margin-left: 50px;
+  }
+
+  /* CREDITOS.PHP */
+
+  .container__body .container__creditos {
+    margin: 20px auto;
+  }
+
+  /* Footer */
+
+  .pie .container__pie {
+    margin-left: 170px;
+  }
+
+  .pie .container__logos .container__img_logos {
+    width: 40%;
+    margin-left: 25px;
+  }
+
+  .pie .container__logos .container__img_logos img {
+    width: 90%;
+    height: 100px;
+    margin-left: 10px;
+  }
+}
+
+/* Responsive Tabletas */
+
+@media screen and (max-width: 768px) {
+  /* Redes sociales */
+
+  .redes_sociales .container_redes {
+    margin-left: 80%;
+  }
+
+  /* Nav */
+
+  .container_nav .container_img_logo {
+    width: 30%;
+  }
+
+  .container_nav .container_img_logo picture img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .menu {
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 230px;
+  }
+
+  .menu__container {
+    margin-top: -170px;
+  }
+
+  .menu__hamburguer {
+    display: flex;
+  }
+
+  .menu__item {
+    overflow: hidden;
+    margin-left: 20px;
+  }
+
+  .menu__item--active {
+    --transform: rotate(0);
+    --background: #5e7094;
+  }
+
+  .menu__item--show {
+    height: 105%;
+    margin-bottom: 15px;
+  }
+
+  .menu__links {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    top: 215px;
+    right: 0;
+    bottom: 0;
+    background-color: #245b98;
+    overflow-y: auto;
+    display: grid;
+    grid-auto-rows: max-content;
+    transform: translateX(100%);
+    height: 400px;
+    left: 140px;
+  }
+
+  .menu__links--show {
+    transform: unset;
+    width: 100%;
+  }
+
+  .menu__link {
+    padding: 25px 0;
+    padding-left: 20px;
+    height: auto;
+    color: white;
+    padding-top: 10px;
+    margin-top: 5px;
+  }
+
+  .menu__arrow {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .menu__nesting {
+    display: grid;
+    position: unset;
+    width: 100%;
+    transform: translateY(0);
+    height: 0;
+    transition: height 0.3s;
+    background-color: #245b98;
+  }
+
+  .menu__inside {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .menu__link--inside {
+    width: 90%;
+    height: 20px;
+    margin-left: auto;
+    border-left: 1px solid #798499;
+    color: white;
+  }
+
+  /* Banner Video INDEX.PHP */
+
+  .container__body .video_banner video {
+    margin-left: 70px;
+  }
+
+  /* Descripcion INDEX.PHP */
+
+  .container__body .descripcion {
+    width: 100%;
+    height: 500px;
+  }
+
+  .container__body .descripcion .container__cuadro--descripcion {
+    margin-left: 40px;
+  }
+
+  .container__body .descripcion .container__texto--descripcion {
+    margin-left: 80px;
+    padding-top: 0;
+  }
+
+  /* Contador de visitas INDEX.PHP */
+
+  .container__body .contador_visitas {
+    margin: 70px auto;
+  }
+
+  .container__body .contador_visitas .container__contador {
+    margin-left: 45px;
+  }
+
+  .container__body .contador_visitas .container__contador .container__linea {
+    margin-left: -5px;
+  }
+
+  /* Boton Certificado INDEX.PHP */
+
+  .container__body .enviarc {
+    margin: 50px auto;
+  }
+
+  /* VISTAS/FOOTER.PHP */
+
+  .pie {
+    bottom: 0;
+  }
+
+  .pie .container__logos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+  }
+
+  .pie .container__logos .container__img_logos {
+    width: 38%;
+  }
+
+  .pie .container__logos .container__img_logos img {
+    width: 100%;
+    height: 90px;
+    margin-left: 0;
+  }
+
+  .pie .container__pie {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  /* ESCUDOS.PHP
+
+  .container__body .container__escudos {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .container__body .container__escudos .container__miranda--escudos {
+    margin: 20px auto;
+  }
+
+  .container__body .container__escudos .container__miranda--escudos .miranda {
+    margin: 20px auto;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    h4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .img__miranda {
+    margin: 30px auto;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    h5 {
+    margin: 15px auto;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .button_mas {
+    margin-left: 105px;
+  }
+
+  .container__body .container__escudos .container__sellos--escudos {
+    margin-left: 0;
+  }
+
+  .container__body .container__escudos .container__sellos--escudos .sellos {
+    margin-left: 0;
+  }
+
+  .container__body .container__escudos .container__sellos--escudos .sellos h4 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos {
+    width: 40%;
+    margin: 20px auto;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .img__republica {
+    margin: 20px auto;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .button_mas {
+    margin-left: 50px;
+  }
+
+  .container__body .container__gran_colombia--escudos {
+    margin-left: 0;
+  }
+
+  .container__body .container__gran_colombia--escudos .gran_colombia {
+    margin-left: 0;
+  }
+
+  .container__body .container__gran_colombia--escudos .gran_colombia h4 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia {
+    width: 40%;
+    margin: 20px auto;
+  }
+
+  .container__body .container__escudos_armas--escudos {
+    margin-left: 0;
+  }
+
+  .container__body .container__escudos_armas--escudos .escudos_armas {
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas {
+    width: 40%;
+    margin: 20px auto;
+  }*/
+
+  /* MUSICA.PHP */
+
+  .container__body .container__musica .caja_musica .titulo__musica {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container__body .container__musica .caja_musica .video {
+    margin: 20px auto;
+  }
+
+  /* GALERIA.PHP */
+
+  .container__body .container__titulo_galeria {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .container__body .container__titulo_galeria h1 {
+    margin-left: 60px;
+  }
+
+  .container__body .container__img_galeria .galeria__img {
+    width: 95%;
+    margin-left: 5px;
+  }
+}
+
+/* Responsive Telefono pequeño */
+
+@media screen and (max-width: 425px) {
+  /* Redes sociales */
+
+  .redes_sociales .container_redes {
+    margin-left: 68%;
+  }
+
+  /* Nav */
+
+  .container_nav .container_img_logo {
+    width: 50%;
+  }
+
+  .container_nav .container_img_logo picture img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0;
+  }
+
+  .menu {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 220px;
+  }
+
+  .menu__container {
+    margin-top: -170px;
+  }
+
+  .menu__hamburguer {
+    display: flex;
+  }
+
+  .menu__item {
+    overflow: hidden;
+  }
+
+  .menu__item--active {
+    --transform: rotate(0);
+    --background: #5e7094;
+  }
+
+  .menu__item--show {
+    height: 105%;
+    margin-bottom: 15px;
+  }
+
+  .menu__links {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    top: 215px;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    overflow-y: auto;
+    display: grid;
+    grid-auto-rows: max-content;
+    transform: translateX(100%);
+    height: 400px;
+    left: 50px;
+  }
+
+  .menu__links--show {
+    transform: unset;
+    width: 100%;
+  }
+
+  .menu__link {
+    padding: 25px 0;
+    padding-left: 20px;
+    height: auto;
+    color: white;
+    padding-top: 10px;
+    margin-top: 5px;
+  }
+
+  .menu__arrow {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .menu__nesting {
+    display: grid;
+    position: unset;
+    width: 100%;
+    transform: translateY(0);
+    height: 0;
+    transition: height 0.3s;
+    background-color: black;
+  }
+
+  .menu__inside {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .menu__link--inside {
+    width: 90%;
+    height: 20px;
+    margin-left: auto;
+    border-left: 1px solid #798499;
+    color: white;
+  }
+
+  /* Video INDEX.PHP */
+
+  .container__body .video_banner video {
+    margin: 20px 40px;
+  }
+
+  /* Flecha subir INDEX.PHP */
+
+  .flecha__subir {
+    position: fixed;
+  }
+
+  .arriba {
+    margin-bottom: 80px;
+  }
+
+  /* Descripcion INDEX.PHP */
+
+  .container__body .descripcion {
+    height: auto;
+    margin-left: -50px;
+  }
+
+  .container__body .descripcion .container__cuadro--descripcion {
+    margin-top: -30px;
+    padding-left: 40px;
+  }
+
+  .container__body .descripcion .container__texto--descripcion {
+    margin-left: 90px;
+  }
+
+  /* Carrusel INDEX.PHP */
+
+  .Carousel {
+    margin-top: 15%;
+  }
+
+  .Carousel h2 {
+    margin-left: 5px;
+  }
+
+  .slick-list {
+    margin-left: -9px;
+  }
+
+  /* Contador de visitas INDEX.PHP */
+
+  .container__body .contador_visitas {
+    width: 70%;
+  }
+
+  .container__body .contador_visitas .container__contador {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .container__body .contador_visitas .container__contador .container__linea {
+    margin-left: 28px;
+  }
+
+  /* Visita Guiada INDEX.PHP */
+
+  .container__body .container__visita_guiada .visita_guiada .visita {
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  /* Boton Certificado INDEX.PHP */
+
+  .container__body .enviarc {
+    width: 80%;
+  }
+
+  /* ESCUDOS.PHP 
+
+  .container__body .container__escudos {
+    margin: 20px auto;
+  }
+
+  .container__body .container__escudos .container__miranda--escudos {
+    margin-left: 30px;
+  }
+
+  .container__body .container__escudos .container__miranda--escudos .miranda {
+    margin-left: 20px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    h4 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda {
+    width: 100%;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .img__miranda {
+    width: 90%;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .img__miranda
+    img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .button_mas {
+    margin-left: 55px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__miranda--escudos
+    .miranda
+    .container__info--miranda
+    .button_mas
+    a {
+    margin-left: 10px;
+  }
+
+  .container__body .container__escudos .container__sellos--escudos .sellos h4 {
+    width: 100%;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos {
+    width: 45%;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    .img__sellos {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    .img__sellos
+    img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    h5 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    .button_mas {
+    margin-left: 27px;
+  }
+
+  .container__body
+    .container__escudos
+    .container__sellos--escudos
+    .sellos
+    .container__info--sellos
+    .button_mas
+    a {
+    margin-left: 10px;
+  }
+
+  .container__body .container__republica--escudos {
+    margin-left: 13px;
+    width: 90%;
+  }
+
+  .container__body .container__republica--escudos .republica {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body .container__republica--escudos .republica h4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica {
+    width: 40%;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .img__republica {
+    width: 80%;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .img__republica
+    img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    h5 {
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 70px;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .button_mas {
+    margin-left: 11px;
+  }
+
+  .container__body
+    .container__republica--escudos
+    .republica
+    .container__info--republica
+    .button_mas
+    a {
+    margin-left: 12px;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia {
+    width: 40%;
+  }
+
+  .container__body .container__gran_colombia--escudos .gran_colombia h4 {
+    height: auto;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    .img__gran_colombia {
+    margin: 10px auto;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    .img__gran_colombia
+    img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    h5 {
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 70px;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    .button_mas {
+    margin-left: 20px;
+  }
+
+  .container__body
+    .container__gran_colombia--escudos
+    .gran_colombia
+    .container__info--gran_colombia
+    .button_mas
+    a {
+    margin-left: 12px;
+  }
+
+  .container__body .container__escudos_armas--escudos .escudos_armas h4 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas {
+    width: 40%;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    .img__escudos_armas {
+    margin: 10px auto;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    .img__escudos_armas
+    img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    h5 {
+    width: 100%;
+    margin-left: 0;
+    padding-bottom: 70px;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    .button_mas {
+    margin-left: 18px;
+  }
+
+  .container__body
+    .container__escudos_armas--escudos
+    .escudos_armas
+    .container__info--escudos_armas
+    .button_mas
+    a {
+    margin-left: 12px;
+  } */
+
+  /* MUSICA.PHP */
+
+  .container__body .container__musica .caja_musica {
+    width: 90%;
+  }
+
+  /* VISION_MISION.PHP */
+
+  .container__body .container__mision {
+    margin-left: 16px;
+    height: 400px;
+  }
+
+  .container__body .container__mision .container__texto--mision {
+    margin-left: 15px;
+    width: 90%;
+    height: 370px;
+  }
+
+  .container__body .container__mision .container__texto--mision h4 {
+    width: 40%;
+    margin-left: 85px;
+  }
+
+  .container__body .container__mision .container__texto--mision p {
+    margin-left: 30px;
+    height: 320px;
+  }
+
+  .container__body .container__vision {
+    margin-left: 16px;
+    height: 400px;
+  }
+
+  .container__body .container__vision .container__texto--vision {
+    margin-left: 15px;
+    width: 90%;
+    height: 370px;
+  }
+
+  .container__body .container__vision .container__texto--vision h4 {
+    width: 40%;
+    margin-left: 85px;
+  }
+
+  .container__body .container__vision .container__texto--vision p {
+    margin-left: 30px;
+    height: 320px;
+  }
+
+  /* GALERIA.PHP */
+
+  .container__body .container__titulo_galeria {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container__body .container__img_galeria .galeria__img {
+    width: 90%;
+    height: 100px;
+  }
+
+  /* CREDITOS.PHP */
+
+  .container__body .container__creditos {
+    height: auto;
+  }
+
+  .container__body .container__creditos .container__texto--creditos {
+    height: auto;
+  }
+
+  .container__body .container__creditos .container__texto--creditos h4 {
+    width: 100%;
+    margin-left: 80px;
+  }
+
+  /* BIBLIOTECA_D.PHP */
+
+  .container__body .libros .portada img {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-left: 0;
+  }
+
+  /* REVISTA_T.PHP */
+
+  .container__body .tricolor {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* MUSEO.PHP */
+
+  .container__body .caja_museos .museo_img {
+    width: 90%;
+  }
+
+  .container__body .caja_museos .museo_img img {
+    width: 90%;
+  }
+
+  .container__body .caja_museos .museo_img1 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .container__body .caja_museos .museo_img1 img {
+    width: 90%;
+  }
+
+  /* Footer */
+
+  .pie .container__logos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    height: auto;
+  }
+
+  .pie .container__logos .container__img_logos {
+    width: 100%;
+  }
+
+  .pie .container__contacto {
+    margin-bottom: 300px;
+    height: 250px;
+    margin-top: -600px;
+  }
+
+  .pie .container__contacto .contacto {
+    width: 100%;
+    margin-left: 0;
+    margin-top: -50px;
+  }
+
+  .pie .container__contacto .contacto .container__texto--contacto {
+    margin-left: 25px;
+    margin-top: 55px;
+  }
+
+  .pie .container__contacto .contacto .container__texto--contacto h4 {
+    margin-left: 10px;
+  }
+
+  .pie .container__pie {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .pie .container__pie a {
+    margin-left: 10px;
+  }
+}

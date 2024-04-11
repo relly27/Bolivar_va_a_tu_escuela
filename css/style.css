@@ -1,0 +1,2124 @@
+:root {
+  --color-principal: #245b98;
+  --color-fondo--gris: #1f1f1f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Cintillo VISTAS/HEADER.PHP */
+
+.container__cintillo {
+  position: relative;
+  top: 0;
+  margin-bottom: -15px;
+}
+
+.container__cintillo img {
+  width: 100%;
+}
+
+/* Flecha para subir VISTAS/HEADER.PHP */
+
+.flecha__subir {
+  position: fixed;
+}
+
+.arriba {
+  display: none;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Redes sociales VISTAS/HEADER.PHP */
+
+.redes_sociales {
+  width: 100%;
+  height: 37px;
+  margin-top: 10px;
+  background-color: var(--color-principal);
+}
+
+.redes_sociales .container_redes {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-left: 85%;
+}
+
+.redes_sociales .redes {
+  flex-wrap: wrap;
+  align-items: center;
+  width: 35px;
+  height: 37px;
+}
+
+.redes_sociales .redes a {
+  width: 25px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+/* Menu de navegacion VISTAS/HEADER.PHP */
+
+.container_nav {
+  position: relative;
+  height: 140px;
+  width: 100%;
+}
+
+/* Logo del navegador */
+
+.container_nav .container_img_logo {
+  width: 25%;
+  height: 140px;
+}
+
+.container_nav .container_img_logo picture img {
+  width: 60%;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+.menu {
+  height: 70px;
+  position: relative;
+  margin-top: -12%;
+  width: 75%;
+  margin-left: 25%;
+  background-color: white;
+}
+
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  color: black;
+  position: relative;
+}
+
+.menu__links {
+  width: auto;
+  height: 100%;
+  transition: transform 0.5s;
+  display: flex;
+  position: relative;
+}
+
+.menu__item {
+  list-style: none;
+  position: relative;
+  width: 100px;
+  margin-right: 20px;
+  height: 80%;
+  --transform: rotate(0);
+}
+
+.menu__item--active {
+  --transform: rotate(90deg);
+}
+
+.menu__link {
+  color: black;
+  text-decoration: none;
+  padding: 0 30px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.menu__arrow {
+  transform: var(--transform);
+  transition: transform 0.3s;
+  display: block;
+  margin-left: 3px;
+}
+
+.menu__nesting {
+  list-style: none;
+  position: absolute;
+  background-color: var(--color-principal);
+  margin-left: 10px;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(100%);
+  height: 0;
+  overflow: hidden;
+}
+
+.menu__link--inside {
+  padding: 10px 30px 10px 28px;
+  margin-left: -15px;
+  text-align: center;
+  color: white;
+}
+
+.menu__hamburguer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu__img {
+  display: block;
+  width: 36px;
+}
+
+/* Video del banner INDEX.PHP */
+
+.container__body .video_banner {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+}
+
+.container__body .video_banner video {
+  width: 80%;
+  height: 100%;
+  margin-left: 140px;
+}
+
+/* Body TODOS LOS ARCHIVOS */
+
+.container__body {
+  height: auto;
+  border-radius: 10px;
+  border: solid 2px gray;
+  margin: 20px;
+}
+
+/* Descripcion INDEX.PHP */
+
+.container__body .descripcion {
+  width: 100%;
+  height: auto;
+}
+
+.container__body .descripcion .container__cuadro--descripcion {
+  /*margin-left: 100px;*/
+  margin-top: 50px;
+}
+
+.container__body
+  .descripcion
+  .container__cuadro--descripcion
+  .cuadro--descripcion {
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-principal);
+}
+
+.container__body .descripcion .container__texto--descripcion {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+}
+
+.enviarc {
+  background-color: gray;
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.desc {
+  width: 10%;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* CARRUSEL */
+
+.Carousel {
+  width: 100%;
+  height: 400px;
+  margin-top: 60px;
+}
+
+.Carousel h2 {
+  font-size: 26px;
+  line-height: 38px;
+  padding-bottom: 50px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+/* images */
+
+.slick-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 304px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  max-width: 90vw;
+  overflow: hidden;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+.slick {
+  position: relative;
+  width: 275px;
+  padding: 0 18px;
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+}
+
+.slick h4 {
+  position: absolute;
+  z-index: 1;
+  font-size: 22px;
+  line-height: 23px;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.slick h4 small {
+  font-size: 15px;
+  display: block;
+}
+
+.slick a img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.slick a img:hover {
+  opacity: 0.85;
+}
+
+/* buttons */
+
+.slick-arrow {
+  border-radius: 30px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 4;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  border: 0;
+  cursor: pointer;
+}
+
+.slick-arrow:focus {
+  outline: 0;
+}
+
+.slick-arrow svg {
+  width: 12px;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.slick-prev {
+  left: 0px;
+}
+
+.slick-next {
+  right: 0px;
+}
+
+/* FIN DEL CARRUSEL */
+
+/* Contador de visitas INDEX.PHP */
+
+.container__body .contador_visitas {
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin: 50px auto;
+
+  text-align: center;
+  background-color: var(--color-fondo--gris);
+  border-radius: 20px;
+}
+
+.container__body .contador_visitas .container__contador {
+  width: 50%;
+  height: 150px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.container__body .contador_visitas .container__contador p {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.container__body .contador_visitas .container__contador h3 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.container__body .contador_visitas .container__contador .container__linea {
+  width: 70%;
+  height: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.container__body
+  .contador_visitas
+  .container__contador
+  .container__linea
+  .linea {
+  width: 70%;
+  height: 10px;
+  margin-left: 20px;
+  background-color: yellow;
+}
+
+/* Contenedores de la galeria GALERIA.PHP */
+
+.container__body .container__titulo_galeria {
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container__body .container__titulo_galeria h1 {
+  margin-left: 50px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.container__body .container_galeria {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__body .container__img_galeria {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  max-width: 1000px;
+  border: solid 2px gray;
+  border-radius: 20px;
+}
+
+.container__body .container__img_galeria .galeria__img {
+  width: 250px;
+  height: 200px;
+  object-fit: scale-down;
+  margin: 10px 0px;
+}
+
+/* Formulario para el certificado CERTIFICADO.PHP */
+
+.container__body .container__titulo_formulario {
+  width: 40%;
+  height: auto;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.container__body .container__titulo_formulario h1 {
+  margin-left: 70px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.container__body .container__formulario_certificado {
+  width: 80%;
+  height: 100px;
+  margin-left: 130px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.container__body .container__formulario_certificado .form {
+  width: 80%;
+  height: 100px;
+  margin-left: 75px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__body .container__formulario_certificado .form .container__nombre {
+  width: 40%;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  .nombre {
+  position: relative;
+  display: inline-block;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: -60px;
+  pointer-events: none;
+  border-bottom: 1px solid var(--color-fondo--gris);
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: 0px;
+  color: black;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  .nombre:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #2ecece;
+  transform: translateX(-215%);
+  transition: all 0.3s ease;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  .nombre
+  .text {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  input:focus
+  + .nombre
+  .text,
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  input:valid
+  + .nombre
+  .text {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #2ecece;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  input:focus
+  + .nombre:after,
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__nombre
+  input:valid
+  + .nombre:after {
+  transform: translateX(0%);
+}
+
+.container__body .container__formulario_certificado .form .container__correo {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  .correo {
+  position: relative;
+  display: inline-block;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: -60px;
+  pointer-events: none;
+  border-bottom: 1px solid var(--color-fondo--gris);
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: 0px;
+  color: black;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  .correo:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #2ecece;
+  transform: translateX(220%);
+  transition: all 0.3s ease;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  .correo
+  .text {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  input:focus
+  + .correo
+  .text,
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  input:valid
+  + .correo
+  .text {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #2ecece;
+}
+
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  input:focus
+  + .correo:after,
+.container__body
+  .container__formulario_certificado
+  .form
+  .container__correo
+  input:valid
+  + .correo:after {
+  transform: translateX(0%);
+}
+
+/* Contenedores de los libros BIBLIOTECA_D.PHP */
+
+.container__body .libros {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.container__body .libros .portada {
+  display: flex;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  max-width: 1000px;
+  border: solid 2px gray;
+  border-radius: 20px;
+}
+
+.container__body .libros .portada img {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
+  margin: auto;
+}
+
+.container__body .ver_mas {
+  background-color: #da0b36;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+
+.container__body .ver_mas .letras1 {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+/* Contenedores de mision y vision VISION_MISION.PHP */
+
+.container__body .container__mision {
+  width: 60%;
+  height: auto;
+  border: 2px solid #7a7a79;
+  border-radius: 10px;
+  background-color: #cacaca;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.container__body .container__mision .container__texto--mision {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.container__body .container__mision .container__texto--mision h4 {
+  width: 10%;
+  height: auto;
+  margin-left: 43%;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container__body .container__mision .container__texto--mision p {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.container__body .container__vision {
+  width: 60%;
+  height: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 20px;
+  border: 2px solid #7a7a79;
+  border-radius: 10px;
+  background-color: #cacaca;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.container__body .container__vision .container__texto--vision {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.5;;
+}
+
+.container__body .container__vision .container__texto--vision h4 {
+  width: 10%;
+  height: auto;
+  margin-left: 43%;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container__body .container__vision .container__texto--vision p {
+  width: 80%;
+  height: auto;
+  margin-left: 70px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+/* Contenedores de los creditos CREDITOS.PHP */
+
+.container__body .creditos {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #7a7a79;
+  border-radius: 10px;
+  background-color: #cacaca;
+}
+
+.container__body .creditos .container__texto--creditos {
+  width: 80%;
+  height: auto;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container__body .creditos .tablas table {
+  font-family: arial, sans-serif;
+  /*border-collapse: collapse;*/
+  width: 80%;
+  height: auto;
+  margin: 10px auto;
+  text-align: center;
+}
+.container__body .creditos .tablas td,
+th {
+  border: 5px solid #fff;
+  text-align: center;
+  padding: 14px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.container__body .creditos .tablas tr {
+  background-color: #dddddd;
+}
+
+.container__body .creditos .container__texto--creditos .tablas h4 {
+  height: auto;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container__body .creditos .tablas h1 {
+  height: auto;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.container__body .creditos .container__texto--creditos p {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.container__body .creditos .container__texto--creditos h1 {
+  margin: 10px auto;
+}
+
+/* Contenedores de los escudos ESCUDOS.PHP */
+.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda
+  p {
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin: 10px;
+}
+
+.container__body .container__escudos {
+}
+
+/*.container__body .container__escudos .container__miranda--escudos {
+
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #da0b36;
+}*/
+
+.container__body .container__escudos .container__miranda--escudos .miranda {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container__body .container__escudos .container__miranda--escudos .miranda h4 {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda {
+  margin-top: 20px;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: #cacaca;
+}
+
+.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda
+  .img__miranda {
+  width: 65%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda
+  .img__miranda
+  img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda
+  h5 {
+  width: auto;
+  height: 30px;
+  text-align: center;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda
+  .button_mas {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+  background-color: var(--color-principal);
+  border-radius: 10px;
+}
+
+.container__body
+  .container__escudos
+  .container__miranda--escudos
+  .miranda
+  .container__info--miranda
+  .button_mas
+  a {
+  display: flex;
+  margin-left: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}*/
+
+.container__body .container__escudos .container__sellos--escudos {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.container__body .container__escudos .container__sellos--escudos .sellos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container__body .container__escudos .container__sellos--escudos .sellos h4 {
+  justify-content: center;
+  display: flex;
+  width: 60%;
+  margin-left: 21%;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body
+  .container__escudos
+  .container__sellos--escudos
+  .sellos
+  .container__info--sellos {
+  margin-top: 20px;
+  width: 30%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: #cacaca;
+}
+
+.container__body
+  .container__escudos
+  .container__sellos--escudos
+  .sellos
+  .container__info--sellos
+  .img__sellos {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.container__body
+  .container__escudos
+  .container__sellos--escudos
+  .sellos
+  .container__info--sellos
+  .img__sellos
+  img {
+  width: 90%;
+  height: 90%;
+  margin-left: 9px;
+  margin-top: 7px;
+  object-fit: contain;
+}
+
+.container__body
+  .container__escudos
+  .container__sellos--escudos
+  .sellos
+  .container__info--sellos
+  h5 {
+  width: 150px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container__body
+  .container__escudos
+  .container__sellos--escudos
+  .sellos
+  .container__info--sellos
+  .button_mas {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  background-color: var(--color-principal);
+  border-radius: 10px;
+}
+
+.container__body
+  .container__escudos
+  .container__sellos--escudos
+  .sellos
+  .container__info--sellos
+  .button_mas
+  a {
+  display: flex;
+  margin-left: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.container__body .container__republica--escudos {
+  width: 80%;
+  height: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container__body .container__republica--escudos .republica {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container__body .container__republica--escudos .republica h4 {
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica {
+  margin-top: 20px;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 10px;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: #cacaca;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica
+  p {
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica
+  .img__republica {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica
+  .img__republica
+  img {
+  width: 90%;
+  height: 90%;
+  margin-left: 7px;
+  margin-top: 7px;
+  object-fit: contain;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica
+  h5 {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica
+  .button_mas {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  background-color: var(--color-principal);
+  border-radius: 10px;
+}
+
+.container__body
+  .container__republica--escudos
+  .republica
+  .container__info--republica
+  .button_mas
+  a {
+  display: flex;
+  margin-left: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.container__body .container__gran_colombia--escudos {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.container__body .container__gran_colombia--escudos .gran_colombia {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container__body .container__gran_colombia--escudos .gran_colombia h4 {
+  justify-content: center;
+  display: flex;
+  width: 60%;
+  margin-left: 21%;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia {
+  margin-top: 20px;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: #cacaca;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia
+  p {
+  text-align: justify;
+  margin: 10px;
+  height: auto;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia
+  .img__gran_colombia {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia
+  .img__gran_colombia
+  img {
+  width: 90%;
+  height: 90%;
+  margin-left: 9px;
+  margin-top: 7px;
+  object-fit: contain;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia
+  h5 {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia
+  .button_mas {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  background-color: var(--color-principal);
+  border-radius: 10px;
+}
+
+.container__body
+  .container__gran_colombia--escudos
+  .gran_colombia
+  .container__info--gran_colombia
+  .button_mas
+  a {
+  display: flex;
+  margin-left: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.container__body .container__escudos_armas--escudos {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.container__body .container__escudos_armas--escudos .escudos_armas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container__body .container__escudos_armas--escudos .escudos_armas h4 {
+  justify-content: center;
+  display: flex;
+  width: 60%;
+  margin-left: 21%;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas {
+  margin-top: 20px;
+  width: 30%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: #cacaca;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas
+  .img__escudos_armas {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas
+  .img__escudos_armas
+  img {
+  width: 90%;
+  height: 90%;
+  margin-left: 9px;
+  margin-top: 7px;
+  object-fit: contain;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas
+  h5 {
+  width: 150px;
+  height: auto;
+  margin: 10px auto;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas
+  p {
+  height: auto;
+  margin: 10px 10px;
+  text-align: justify;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas
+  .button_mas {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  background-color: var(--color-principal);
+  border-radius: 10px;
+}
+
+.container__body
+  .container__escudos_armas--escudos
+  .escudos_armas
+  .container__info--escudos_armas
+  .button_mas
+  a {
+  display: flex;
+  margin-left: 15px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+/* FOOTER */
+
+.pie {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+  background-color: var(--color-fondo--gris);
+  bottom: 0;
+}
+
+.pie .container__logos {
+  width: 50%;
+  height: auto;
+  margin-bottom: auto;
+}
+
+.pie .container__logos img {
+  width: 150px;
+  height: 280px;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.pie .container__contacto {
+  display: flex;
+  width: 50%;
+  height: 280px;
+  margin-left: 50%;
+  margin-top: -380px;
+  margin-bottom: 40px;
+}
+
+.pie .container__contacto .contacto {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.pie .container__contacto .contacto .container__texto--contacto {
+  width: 80%;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.pie .container__contacto .contacto .container__texto--contacto h4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 30px auto;
+  font-size: 20px;
+  color: white;
+}
+
+.pie .container__contacto .contacto .container__texto--contacto p {
+  display: flex;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.pie .container__contacto .contacto .container__texto--contacto a {
+  display: flex;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.pie .container__contacto .contacto .container__texto--contacto a i {
+  margin-right: 20px;
+}
+
+.pie
+  .container__contacto
+  .contacto
+  .container__texto--contacto
+  a
+  i
+  .pie
+  .container__pie {
+  width: 60%;
+  height: auto;
+  margin-left: 165px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.pie .container__pie a {
+  text-decoration: none;
+  color: #d1cbca;
+  margin-left: 30px;
+}
+
+.pie .container__pie a:hover {
+  opacity: 0.5;
+}
+
+/*cierre de footer*/
+
+/*banderas*/
+
+.container__body .banderas .caja_bandera .bandera_img {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container__body .banderas .caja_bandera .titulo {
+  text-align: center;
+}
+
+.container__body .banderas .caja_bandera .titulo h1 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container__body .banderas .caja_bandera .caja_texto {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #7a7a79;
+  border-radius: 10px;
+  background-color: #cacaca;
+  text-align: center;
+}
+
+.container__body .banderas .caja_bandera .caja_texto .texto {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+/*cierre banderas*/
+
+/*museo no tocar
+
+/.container__body .caja_museos {
+
+}*/
+
+.container__body .caja_museos .titulo {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.container__body .caja_museos .titulo h1 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .caja_museos .museo_img {
+  width: 450px;
+  height: 450px;
+  border: solid 2px gray;
+  border-radius: 10px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.container__body .caja_museos .museo_img img {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.container__body .caja_museos .caja_texto1 {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #7a7a79;
+  border-radius: 10px;
+  background-color: #cacaca;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.container__body .caja_museos .caja_texto1 .texto1 {
+  text-align: justify;
+  position: relative;
+  margin: 20px;
+}
+
+.container__body .caja_museos .museo_imgp {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.container__body .caja_museos .museo_img1 {
+  width: 450px;
+  height: 450px;
+  border: solid 2px gray;
+  border-radius: 10px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.container__body .caja_museos .museo_img1 img {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/*Museos*/
+
+/*musica relly no tocar*/
+
+.container__body .container__musica {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container__body .container__musica .caja_musica {
+  width: 45%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #7a7a79;
+  border-radius: 10px;
+  background-color: #cacaca;
+}
+
+.container__body .container__musica .caja_musica .titulo__musica {
+  width: 70%;
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container__body .container__musica .caja_musica .video {
+  width: 80%;
+  height: 400px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+.container__body .container__musica .caja_musica .video iframe {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+/*musica cierre*/
+
+/*Memorias de Bolivar*/
+.container__body .memorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.container__body .memorias .memorias_bolivar {
+  width: 91%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.container__body .memorias .memorias_bolivar p {
+  text-align: justify;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border: 14px solid #cacaca;
+  border-radius: 10px;
+  background-color: #cacaca;
+}
+
+.container__body .memorias .memorias_bolivar h1 {
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+/*Cierre de Memoria de Bolivar*/
+
+/*tricolor*/
+.container__body .tricolor {
+  background-color: gray;
+  width: 650px;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  right: 0;
+  left: 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.container__body .tricolor embed {
+  width: 600px;
+  height: 700px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  align-items: center;
+}
+
+/*cierre tricolor*/
+
+.container__body .container__visita_guiada {
+  height: auto;
+  margin-top: 50px;
+}
+
+.container__body .container__visita_guiada .titulo--visita_guiada {
+  width: 100%;
+  margin: 30px auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.container__body .container__visita_guiada .titulo--visita_guiada h1 {
+  font-size: 29px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .container__visita_guiada .visita_guiada {
+  width: 100%;
+}
+
+.container__body .container__visita_guiada .visita_guiada .visita {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container__body .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__body .galeria h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .galeria .container__img {
+  margin-top: 20px;
+  width: 40%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.container__body .galeria .container__img img {
+  width: 80%;
+  height: 300px;
+  margin: 20px 55px;
+}
+
+.container__body .personaje {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__body .personaje h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .personaje .container__img {
+  margin-top: 20px;
+  width: 40%;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.container__body .personaje .container__img img {
+  width: 80%;
+  height: 700px;
+  margin: 20px 55px;
+}
+
+.container__body .personaje h4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .personaje .comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+}
+
+.container__body .personaje .comics .container__comics {
+  background-color: #7a7a79;
+  margin: 20px auto;
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container__body .personaje .comics .container__comics embed {
+  height: 800px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.container__body .comics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+  height: auto;
+}
+
+.container__body .comics h4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .comics .container__comics {
+  background-color: #7a7a79;
+  margin: 20px auto;
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container__body .comics .container__comics embed {
+  height: 630px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.container__body .titulo__comuna {
+  width: 100%;
+  height: auto;
+  margin: 40px auto;
+}
+
+.container__body .titulo__comuna h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.container__body .caja_museos_comuna {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__body .caja_museos_comuna .titulo__comuna {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.container__body .caja_museos_comuna .titulo__comuna a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  border: 14px solid #cacaca;
+  border-radius: 10px;
+  background-color: #cacaca;
+  width: 100%;
+  justify-content: center;
+}
+
+.container__body .caja_museos_comuna .titulo__comuna a h4 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+/*.container__body .container_enlaces {
+  width: 80%;
+  height: auto;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+
+.container__body .container_enlaces table {
+  font-family: arial, sans-serif;
+  width: 64%;
+  height: auto;
+  margin: 10px auto;
+  text-align: center;
+}
+.container__body .container_enlaces th {
+  border: 5px solid #fff;
+  text-align: center;
+  padding: 14px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.container__body .container_enlaces tr {
+  background-color: #dddddd;
+}
+
+.container__body .container_enlaces h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
